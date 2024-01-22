@@ -10,6 +10,7 @@ TypeError: customElements.get(...) is not a constructor`.
 ### Notes
 
 - Server side rendering `output: server` has to be active for this error to occur.
+- Both the Astro import and the Lit import are required for the error to occur.
 
 ## Inheritance that causes the problem
 
