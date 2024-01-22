@@ -1,13 +1,13 @@
 import { LitElement, css, html } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
-@customElement("villa-greeting")
-export class VillaGreeting extends LitElement {
+@customElement("my-greeting")
+export class MyGreeting extends LitElement {
   @property() name: string | undefined;
 
   static styles = css`
     :host {
-      color: var(--color-alias-text-default, #333);
+      color: hotpink;
     }
 
     :host p {

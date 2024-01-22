@@ -1,9 +1,7 @@
 ---
-import { VillaGreeting } from 'test-webcomponenten';
+import { MyGreeting } from 'shared-litcomponents';
+import { Image } from 'astro:assets';
 ---
 
-<div>
-  <h1>Test Webcomponents</h1>
-  <VillaGreeting name="World" client:load></VillaGreeting>
-</div>
-
+<MyGreeting name="World"></MyGreeting>
+<Image src="https://placekitten.com/200/300" width={200} height={300} alt='alt'></Image>

@@ -1,7 +1,8 @@
 {
   "name": "shared-astro",
   "main": "index.ts",
+  "type": "module",
   "dependencies": {
-    "test-webcomponenten": "workspace:*"
+    "shared-litcomponents": "*"
   }
 }

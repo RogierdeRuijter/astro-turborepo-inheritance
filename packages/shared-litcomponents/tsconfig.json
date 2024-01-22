@@ -4,6 +4,6 @@
     "baseUrl": ".",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "useDefineForClassFields": false
-  }
+    "useDefineForClassFields": false,
+  },
 }
