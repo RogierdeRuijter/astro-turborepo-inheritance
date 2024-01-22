@@ -2,9 +2,10 @@
 
 ## Error
 
-In an Astro app if you inherit a package that has an Astro component in it.
-If this component contains both a Lit component and an Astro import, an unrelated
-error occurs. This is the error: `There was an uncaught error in the middle of the stream while rendering /.
+In an Astro app, if you inherit a package that contains an Astro component and
+if this component includes both a Lit component and an Astro import, an unrelated
+error occurs. The error message is as follows:
+`There was an uncaught error in the middle of the stream while rendering /.
 TypeError: customElements.get(...) is not a constructor`.
 
 ### Notes
