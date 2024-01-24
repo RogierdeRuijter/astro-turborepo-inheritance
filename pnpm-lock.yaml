@@ -33,14 +33,9 @@ importers:
       astro:
         specifier: ^4.2.1
         version: 4.2.1(typescript@5.3.3)
-      shared-litcomponents:
-        specifier: '*'
-        version: link:../../packages/shared-litcomponents
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
-
-  packages/shared-litcomponents: {}
 
 packages:
 

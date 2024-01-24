@@ -1,5 +1,0 @@
-{
-  "name": "shared-litcomponents",
-  "main": "src/index.ts",
-  "type": "module"
-}
