@@ -1,0 +1,10 @@
+---
+import { MyGreeting } from 'shared-litcomponents';
+import { Image } from 'astro:assets';
+---
+
+<div>
+  <!-- @ts-ignore -->
+  <MyGreeting name="World"></MyGreeting>
+  <Image src="https://placekitten.com/200/300" width={200} height={300} alt='alt'></Image>
+</div>
