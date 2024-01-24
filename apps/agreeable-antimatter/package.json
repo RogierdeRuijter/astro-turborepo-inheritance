@@ -6,12 +6,12 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
-    "preview": "astro preview",
+    "preview": "astro preview --port 4322",
     "astro": "astro",
     "info": "astro info"
   },
   "dependencies": {
-    "shared-astro": "*",
+    "shared-litcomponents": "*",
     "typescript": "^5.3.3",
     "@astrojs/check": "^0.4.1",
     "@astrojs/lit": "^4.0.1",

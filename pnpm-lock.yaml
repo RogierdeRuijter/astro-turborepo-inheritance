@@ -33,24 +33,14 @@ importers:
       astro:
         specifier: ^4.2.1
         version: 4.2.1(typescript@5.3.3)
-      shared-astro:
+      shared-litcomponents:
         specifier: '*'
-        version: link:../../packages/shared-astro
+        version: link:../../packages/shared-litcomponents
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
 
-  packages/shared-astro:
-    dependencies:
-      shared-litcomponents:
-        specifier: '*'
-        version: link:../shared-litcomponents
-
-  packages/shared-litcomponents:
-    dependencies:
-      lit-html:
-        specifier: ^1.1.2
-        version: 1.4.1
+  packages/shared-litcomponents: {}
 
 packages:
 
@@ -2147,10 +2137,6 @@ packages:
       '@lit-labs/ssr-dom-shim': 1.1.2
       '@lit/reactive-element': 2.0.3
       lit-html: 3.1.1
-    dev: false
-
-  /lit-html@1.4.1:
-    resolution: {integrity: sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==}
     dev: false
 
   /lit-html@3.1.1:
